@@ -96,7 +96,8 @@ This script automates the process of creating a local Certificate Authority (CA)
    ```
 
 8. **Add the CA Certificate to Trusted Root Certificates*:
-  For Ubuntu:
+
+   For Ubuntu:
    ```bash
    sudo apt install -y ca-certificates
    sudo cp $CANAME.crt /usr/local/share/ca-certificates
