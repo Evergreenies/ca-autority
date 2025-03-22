@@ -95,7 +95,7 @@ This script automates the process of creating a local Certificate Authority (CA)
      -out $MYCERT.crt -days 730 -sha256 -extfile $MYCERT.v3.ext
    ```
 
-8. **Add the CA Certificate to Trusted Root Certificates: Follow the steps below based on your Linux distribution**:
+8. **Add the CA Certificate to Trusted Root Certificates*:
   For Ubuntu:
    ```bash
    sudo apt install -y ca-certificates
